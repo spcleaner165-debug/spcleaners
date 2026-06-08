@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 48 33% 97%;
+    --foreground: 0 0% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
+    --primary: 216 56% 10%;
+    --primary-foreground: 40 23% 93%;
+    --secondary: 210 52% 24%;
+    --secondary-foreground: 40 23% 93%;
+    --muted: 30 15% 93%;
+    --muted-foreground: 0 0% 35%;
+    --accent: 40 54% 58%;
+    --accent-foreground: 216 56% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 40 54% 58%;
+    --radius: 0.625rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+    color: #1A1A1A;
+    background-color: #FAFAF7;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  .overline {
+    @apply uppercase font-semibold text-xs tracking-[0.15em] text-[#D4A853];
+  }
+
+  .faq-item .faq-answer {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, opacity 0.3s ease, padding 0.3s ease;
+  }
+
+  .faq-item.open .faq-answer {
+    max-height: 300px;
+    opacity: 1;
+    padding-bottom: 1.25rem;
+  }
+
+  .faq-item .faq-toggle {
+    transition: transform 0.3s ease;
+  }
+
+  .faq-item.open .faq-toggle {
+    transform: rotate(45deg);
+  }
+}
