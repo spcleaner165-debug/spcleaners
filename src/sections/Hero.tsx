@@ -39,7 +39,7 @@ export default function Hero() {
         preload="auto"
         className="absolute inset-0 w-full h-full object-cover"
       >
-        <source src="/videos/hero-bg.mp4" type="video/mp4" />
+        <source src="/videos/hero-cleaning.mp4" type="video/mp4" />
       </video>
 
       {/* Gradient Overlay for text readability */}
