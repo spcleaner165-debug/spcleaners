@@ -150,10 +150,10 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-[rgba(240,237,232,0.1)] mt-12 pt-6 flex flex-col sm:flex-row justify-between items-center gap-2">
           <p className="font-sans text-xs text-[rgba(240,237,232,0.4)]">
-            © 2025 SparklePro Cleaners. All rights reserved.
+            © 2006 SparklePro Cleaners. All rights reserved.
           </p>
           <p className="font-sans text-xs text-[rgba(240,237,232,0.4)]">
-            Company Registered  | Top 5 Rated in UK
+            Bali bahi aj ki date sy 5 haircut free
           </p>
         </div>
       </div>
