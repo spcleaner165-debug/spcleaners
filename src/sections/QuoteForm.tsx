@@ -143,11 +143,11 @@ export default function QuoteForm() {
               <div className="space-y-3">
                 <div className="flex items-center gap-3">
                   <Phone className="w-4 h-4 text-[#D4A853]" />
-                  <span className="font-sans text-sm text-[#0A1628]">0800 123 4567</span>
+                  <span className="font-sans text-sm text-[#0A1628]">+44 7832 067803</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail className="w-4 h-4 text-[#D4A853]" />
-                  <span className="font-sans text-sm text-[#0A1628]">hello@sparklepro.co.uk</span>
+                  <span className="font-sans text-sm text-[#0A1628]">spcleaner165@gmail.com</span>
                 </div>
               </div>
             </div>
