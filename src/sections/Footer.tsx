@@ -153,7 +153,7 @@ export default function Footer() {
             © 2025 SparklePro Cleaners. All rights reserved.
           </p>
           <p className="font-sans text-xs text-[rgba(240,237,232,0.4)]">
-            Company Reg: 12345678 | VAT: GB 123 4567 89
+            Company Registered  | Top 5 Rated in UK
           </p>
         </div>
       </div>
