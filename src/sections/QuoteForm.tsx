@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 // REPLACE THIS WITH YOUR OWN WEB3FORMS KEY
 // Get your free key at: https://web3forms.com/
 // ============================================
-const WEB3FORMS_KEY = 'YOUR_ACCESS_KEY_HERE';
+const WEB3FORMS_KEY = '4902963c-da75-4ebc-85e8-e25f0b4577d1';
 
 export default function QuoteForm() {
   const leftRef = useRef<HTMLDivElement>(null);
