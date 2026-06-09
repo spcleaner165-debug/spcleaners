@@ -228,9 +228,12 @@ export default function Services() {
               <p className="font-sans text-[0.95rem] text-[#5A5A5A] leading-[1.6] mb-4">
                 {service.description}
               </p>
-              <span className="inline-flex items-center gap-1 font-sans font-medium text-sm text-[#D4A853] group-hover:translate-x-1 transition-transform duration-300">
+              <button
+                onClick={() => document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })}
+                className="inline-flex items-center gap-1 font-sans font-medium text-sm text-[#D4A853] group-hover:translate-x-1 transition-transform duration-300 cursor-pointer bg-transparent border-none p-0"
+              >
                 Learn More →
-              </span>
+              </button>
             </div>
           ))}
         </div>
