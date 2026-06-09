@@ -7,7 +7,7 @@ export default function WhatsAppButton() {
     <>
       {/* WhatsApp Chat Bubble - Fixed bottom-right */}
       <a
-        href="https://wa.me/+447404521095?text=Hi%2C%20I%20saw%20your%20website%20and%20wanted%20to%20inquire%20about%20your%20cleaning%20services."
+        href="https://wa.me/+447832067803?text=Hi%2C%20I%20saw%20your%20website%20and%20wanted%20to%20inquire%20about%20your%20cleaning%20services."
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 flex items-center gap-3 group"
