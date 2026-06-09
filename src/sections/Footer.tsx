@@ -120,7 +120,7 @@ export default function Footer() {
               <li className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-[rgba(240,237,232,0.6)] mt-0.5 flex-shrink-0" />
                 <span className="font-sans text-sm text-[rgba(240,237,232,0.6)]">
-                  123 Clean Street, London, EC1A 1BB
+                  Head Office in London, Engalnd UK
                 </span>
               </li>
               <li className="flex items-center gap-2.5">
@@ -132,7 +132,7 @@ export default function Footer() {
               <li className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-[rgba(240,237,232,0.6)] flex-shrink-0" />
                 <span className="font-sans text-sm text-[rgba(240,237,232,0.6)]">
-                  hello@sparklepro.co.uk
+                  spcleaner165@gmail.com
                 </span>
               </li>
               <li className="flex items-start gap-2.5">
